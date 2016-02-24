@@ -1,0 +1,39 @@
+# setupInstructions
+
+Step by step instruction is here to create a very basic Angular JS base.
+Install Node JS - https://nodejs.org/en/
+
+provide the nodejs path in environment variables - C:\Program Files\nodejs\
+
+Install yo, grunt-cli, bower, generator-angular and generator-karma:
+  $ npm install -g grunt-cli bower yo generator-karma generator-angular
+
+Create a folder to start creating your application
+  mkdir my-new-project - Create folder 
+  
+  $ cd my-new-project
+  
+In the project folder create the angular app.
+  $ yo angular [app-name]
+  
+Select the list of dependencies
+"angular-animate"
+"angular-cookies"
+"angular-messages"
+"angular-resource"
+"angular-route"
+"angular-sanitize"
+"angular-touch"
+
+Command to finish application setup
+  $ bower install
+
+Start app 
+  $ grunt serve
+
+For the efficient usage of angular bootstrap/ ui bootstrap install ui bootstrap -"angular-bootstrap"
+  $ bower install angular-bootstrap
+
+
+
+
